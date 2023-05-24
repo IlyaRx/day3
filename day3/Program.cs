@@ -119,18 +119,44 @@ namespace day3
             new Employee("Фамилия5", "Имя", "отчество", 1,1000),
             };
 
-            ListPeople(people);
-            Console.WriteLine("//////////////////////////////////////////////////////////");
-            SumSalary(people);
-            Console.WriteLine("//////////////////////////////////////////////////////////");
-            MinSalary(people);
-            Console.WriteLine("//////////////////////////////////////////////////////////");
-            MaxSalary(people);
-            Console.WriteLine("//////////////////////////////////////////////////////////");
-            average(people);
-            Console.WriteLine("//////////////////////////////////////////////////////////");
-            FIO(people);
+            bool prov = true;
+            while (prov)
+            {
+                switch (Convert.ToInt32(Console.ReadLine()))
+                {
+                    case 1:
+                        ListPeople(people);
+                        Console.WriteLine("//////////////////////////////////////////////////////////");
+                        break;
 
+                    case 2:
+                        SumSalary(people);
+                        Console.WriteLine("//////////////////////////////////////////////////////////");
+                        break;
+
+                    case 3:
+                        MinSalary(people);
+                        Console.WriteLine("//////////////////////////////////////////////////////////");
+                        break;
+
+                    case 4:
+                        MaxSalary(people);
+                        Console.WriteLine("//////////////////////////////////////////////////////////");
+                        break;
+                    case 5:
+                        average(people);
+                        Console.WriteLine("//////////////////////////////////////////////////////////");
+                        break;
+                    case 6:
+                        FIO(people);
+                        Console.WriteLine("//////////////////////////////////////////////////////////");
+                        break;
+                    case 7:
+                        prov = false;
+                        break;
+
+                }
+            }
             Console.ReadKey();
 
         }
