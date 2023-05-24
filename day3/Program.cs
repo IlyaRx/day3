@@ -12,6 +12,7 @@ namespace day3
         {
             Console.WriteLine($"{SumSalary(employees)/employees.Count}");
         }
+
         static void sort(List<Employee> employees)
         {
             Employee MinSalary;
@@ -28,6 +29,7 @@ namespace day3
                 }
             }
         }
+
         static void ListPeople(List<Employee> employees)
         {
             foreach(var e in employees)
@@ -122,6 +124,13 @@ namespace day3
             bool prov = true;
             while (prov)
             {
+                Console.WriteLine("1 - список\n" +
+                  "2 - сумма затрат на зарплату\n" +
+                  "3 - имнимальная зарплата\n" +
+                  "4 - максимальная зарплата\n" +
+                  "5 - средняя зарплата\n" +
+                  "6 - ФИО\n" +
+                  "7 - закончить");
                 switch (Convert.ToInt32(Console.ReadLine()))
                 {
                     case 1:
@@ -157,7 +166,6 @@ namespace day3
 
                 }
             }
-            Console.ReadKey();
 
         }
     }

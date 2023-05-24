@@ -13,3 +13,4 @@ C:\Users\user\OneDrive\Рабочий стол\проект\day3\day3\obj\Debug\
 C:\Users\user\OneDrive\Рабочий стол\проект\day3\day3\obj\Debug\day3.csproj.CoreCompileInputs.cache
 C:\Users\user\OneDrive\Рабочий стол\проект\day3\day3\obj\Debug\day3.exe
 C:\Users\user\OneDrive\Рабочий стол\проект\day3\day3\obj\Debug\day3.pdb
+C:\Users\Студент\Documents\GitHub\day3\day3\obj\Debug\day3.csproj.SuggestedBindingRedirects.cache
